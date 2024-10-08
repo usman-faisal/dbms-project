@@ -1,6 +1,7 @@
 # BCA Home Services Project
+This Project is a web-based platform designed to connect users with home service providers for a variety of tasks such as cleaning, plumbing, electrical work, and more. The system allows users to book services, manage their appointments, and view available service providers in their area, while service providers can manage their service offerings and availability. An admin panel is included to oversee users, services, and bookings.
 
-This repository contains the source code for the **BCA Home Services Project**, a web-based platform developed using PHP and MySQL. The platform allows users to book various home services, and service providers can manage their service offerings.
+This project is built using PHP, MySQL, and is designed to run on a XAMPP server.
 
 ## Features
 
