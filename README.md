@@ -3,6 +3,24 @@ This Project is a web-based platform designed to connect users with home service
 
 This project is built using PHP, MySQL, and is designed to run on a XAMPP server.
 
+## Table of Contents
+
+- [Features](#features)
+- [Installation Guide](#installation-guide)
+  - [Prerequisites](#prerequisites)
+  - [Setup Instructions](#setup-instructions)
+    - [Clone the repository](#clone-the-repository)
+    - [Move the project](#move-the-project-folder)
+    - [Create the database](#create-the-database)
+    - [Configure database connection](#configure-database-connection)
+    - [Run the project](#run-the-project)
+- [Tech Stack](#tech-stack)
+- [How to Use](#how-to-use)
+- [Contributing](#contribution-guidelines)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+- [Contact](#contact)
+
 ## Features
 
 - **User Registration & Login:** Users can register and log in to book home services.
@@ -10,25 +28,6 @@ This project is built using PHP, MySQL, and is designed to run on a XAMPP server
 - **Booking System:** Users can book services based on available times.
 - **Service Provider Dashboard:** Service providers can manage their services, update availability, and check bookings.
 - **Admin Panel:** Admins can oversee users, service providers, and bookings.
-
-  
-## Table of Contents
-
-- [Features](#features)
-- [Installation Guide](#installation-guide)
-  - [Prerequisites](#prerequisites)
-  - [Setup Instructions](#setup-instructions)
-    - [Install XAMPP](#install-xampp)
-    - [Clone the repository](#clone-the-repository)
-    - [Move the project folder](#move-the-project-folder)
-    - [Create the database](#create-the-database)
-    - [Configure database connection](#configure-database-connection)
-    - [Run the project](#run-the-project)
-- [Tech Stack](#tech-stack)
-- [How to Use](#how-to-use)
-- [Contribution Guidelines](#contribution-guidelines)
-- [Future Improvements](#future-improvements)
-- [License](#license)
 
 
 ## Installation
