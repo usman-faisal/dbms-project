@@ -11,7 +11,7 @@ This project is built using PHP, MySQL, and is designed to run on a XAMPP server
   - [Setup Instructions](#setup-instructions)
 - [Tech Stack](#tech-stack)
 - [How to Use](#how-to-use)
-- [Contributing](#contribution-guidelines)
+- [Contributing](#contributing)
 - [Future Improvements](#future-improvements)
 - [License](#license)
 - [Contact](#contact)
