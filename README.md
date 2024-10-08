@@ -9,11 +9,6 @@ This project is built using PHP, MySQL, and is designed to run on a XAMPP server
 - [Installation Guide](#installation-guide)
   - [Prerequisites](#prerequisites)
   - [Setup Instructions](#setup-instructions)
-    - [Clone the repository](#clone-the-repository)
-    - [Move the project](#move-the-project-folder)
-    - [Create the database](#create-the-database)
-    - [Configure database connection](#configure-database-connection)
-    - [Run the project](#run-the-project)
 - [Tech Stack](#tech-stack)
 - [How to Use](#how-to-use)
 - [Contributing](#contribution-guidelines)
@@ -30,7 +25,7 @@ This project is built using PHP, MySQL, and is designed to run on a XAMPP server
 - **Admin Panel:** Admins can oversee users, service providers, and bookings.
 
 
-## Installation
+## Installation Guide
 
 ### Prerequisites
 To run this project on your local machine, ensure the following software is installed:
