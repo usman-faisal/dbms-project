@@ -1,6 +1,6 @@
 <?php
 
-include('c:/xampp/htdocs/hs/db/dbconnect.php');
+include '../../../db/dbconnect.php';
 
 $category_id = $_POST['category_id'];
 echo $category_id;

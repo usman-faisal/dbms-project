@@ -45,11 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
 
-
-
-
 <div class="col-sm-9 col-xs-12 content pt-3 pl-0">
-
 
     <div class="row ">
         <div class="col-lg-5">
@@ -103,21 +99,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
 
 
-
-
-
-
-
-
-
                 
             </div>
             <!--/Hoverable Table-->
-
-
         </div>
     </div>
-
 
     <script>
         $('#category').on('change', function() {
