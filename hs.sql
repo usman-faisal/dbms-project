@@ -115,7 +115,6 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`customer_id`, `login_id`, `first_name`, `last_name`, `email`, `phone`, `address`, `city_id`, `pincode`) VALUES
-(5, 353, 'bc', 'mc', 'bcmcbc10@gmail.com', '8574857485', 'dfsdc', 8, '845878'),
 (6, 355, 'Shivam', 'Gabani', 'gabanishivam77@gmail.com', '8574587458', 'c-503, Ila society, India Colony, Bapunagar, Ahmedabad', 1, '589658'),
 (7, 359, 'Harsh', 'Maniya', 'harshmaniya8@gmail.com', '9658741524', 'D-303, Blackberry apart, Adajan, surat', 2, '395225');
 
@@ -165,7 +164,6 @@ INSERT INTO `login` (`login_id`, `role_id`, `username`, `password`) VALUES
 (347, 2, 'nayan', '$2y$10$Mu7fItaeU.Q1aMWek1LvjOEEL1Q/rFXnjkTL//uXMoreKFXJoExSi'),
 (351, 2, 'jay gabani', '$2y$10$Se74K2TO57ZGEN79HFNy4e7qUJ/v1ePImeRLj9/E5sgPSQs7uwG6m'),
 (352, 3, 'amit', '$2y$10$LImF6t3d5pQMRTE8a3kyX.0XPqTK9L.8FTDIS4Z9BUwX75Hzss0DW'),
-(353, 3, 'bcmc', '$2y$10$xS10AX.HbgUzDn.5.mjGfOTD.1nPfAqjOIli9bhYOE2m7KMaNT93C'),
 (354, 2, 'deep', '$2y$10$nQCTknPw7Y0ViSMNuWdwHORpdNcm5a9iLsIUyHDwGofxUG2p6.8mG'),
 (355, 3, 'jay_gabani', '$2y$10$wXEeA6MNy13EsgQlF8G3w.fhZC4NCH2kEi0amMj9CdtTvU.ZiUsMO'),
 (358, 2, 'jeel', '$2y$10$40EBg/w9DlFItbzn9X5a3uj44gZg8Xf2BTSeZD2YENvdRkeHzGxMO'),
