@@ -44,7 +44,7 @@ include('includes/navbar.php');
                             while ($row = mysqli_fetch_assoc($chk)) {
                        
                         
-                          echo "<h4>"."<b>"."₹".$row['sum']."</b>"."</h4>";
+                          echo "<h4>"."<b>"."pkr".$row['sum']."</b>"."</h4>";
                        
                             }
                         } else {
@@ -83,7 +83,7 @@ include('includes/navbar.php');
                             while ($row = mysqli_fetch_assoc($chk)) {
                        
                         
-                          echo "<h4>"."<b>"."₹".$row['sum']."</b>"."</h4>";
+                          echo "<h4>"."<b>"."pkr".$row['sum']."</b>"."</h4>";
                        
                             }
                         } else {

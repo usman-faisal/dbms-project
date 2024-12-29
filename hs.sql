@@ -38,8 +38,6 @@ CREATE TABLE `category` (
 
 INSERT INTO `category` (`category_id`, `category_name`) VALUES
 (84, 'Cleaning'),
-(85, 'Hair Services for Women'),
-(86, 'Salon for Men'),
 (87, 'Electricians'),
 (88, 'Plumbers'),
 (89, 'Carpenters');
@@ -60,37 +58,9 @@ CREATE TABLE `city` (
 --
 
 INSERT INTO `city` (`city_id`, `city_name`) VALUES
-(1, 'Ahmedabad'),
-(2, 'Surat'),
-(3, 'Vadodara'),
-(4, 'Rajkot'),
-(5, 'Bhavnagar'),
-(6, 'Jamnagar'),
-(7, 'Gandhinagar'),
-(8, 'Junagadh'),
-(9, 'Anand'),
-(10, 'Navsari'),
-(11, 'Morbi'),
-(12, 'Nadiad'),
-(13, 'Surendranagar'),
-(14, 'Bharuch'),
-(15, 'Bhuj'),
-(16, 'Mehsana'),
-(17, 'Porbandar'),
-(18, 'Palanpur'),
-(19, 'Valsad'),
-(20, 'Vapi'),
-(21, 'Gondal'),
-(22, 'Veraval'),
-(23, 'Godhra'),
-(24, 'Patan'),
-(25, 'Kalol'),
-(26, 'Dahod'),
-(27, 'Botad'),
-(28, 'Amreli'),
-(29, 'Deesa'),
-(30, 'Jetpur'),
-(31, 'Gandhidham');
+(1, 'Karachi'),
+(2, 'Lahore'),
+(3, 'Islamabad');
 
 -- --------------------------------------------------------
 
@@ -113,10 +83,6 @@ CREATE TABLE `customer` (
 --
 -- Dumping data for table `customer`
 --
-
-INSERT INTO `customer` (`customer_id`, `login_id`, `first_name`, `last_name`, `email`, `phone`, `address`, `city_id`, `pincode`) VALUES
-(6, 355, 'Shivam', 'Gabani', 'gabanishivam77@gmail.com', '8574587458', 'c-503, Ila society, India Colony, Bapunagar, Ahmedabad', 1, '589658'),
-(7, 359, 'Harsh', 'Maniya', 'harshmaniya8@gmail.com', '9658741524', 'D-303, Blackberry apart, Adajan, surat', 2, '395225');
 
 -- --------------------------------------------------------
 
@@ -157,17 +123,8 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`login_id`, `role_id`, `username`, `password`) VALUES
-(333, 3, 'sahil', '$2y$10$hZDAvmYRcGnL48FWoHH37O0Ey99EnX..Ce9ETd2yWxAum30Knb9o.'),
-(335, 1, 'admin', '$2y$10$cN3ZSgu544VbF0U/Xk/96eEHlf.txlokPij7Qn5oe/dBAh2DrUwvO'),
-(344, 2, 'smit', '$2y$10$KDhIPRf5qIYTmFJY2pVfYe/XF.DX8Cypctp4Q.qJeXgNwiamfaNAm'),
-(345, 2, 'karan', '$2y$10$V7DsxOd9.mDjp9AEkGEtteL3QLojStmFFwmqo.l1RmSDbRuph8Amq'),
-(347, 2, 'nayan', '$2y$10$Mu7fItaeU.Q1aMWek1LvjOEEL1Q/rFXnjkTL//uXMoreKFXJoExSi'),
-(351, 2, 'jay gabani', '$2y$10$Se74K2TO57ZGEN79HFNy4e7qUJ/v1ePImeRLj9/E5sgPSQs7uwG6m'),
-(352, 3, 'amit', '$2y$10$LImF6t3d5pQMRTE8a3kyX.0XPqTK9L.8FTDIS4Z9BUwX75Hzss0DW'),
-(354, 2, 'deep', '$2y$10$nQCTknPw7Y0ViSMNuWdwHORpdNcm5a9iLsIUyHDwGofxUG2p6.8mG'),
-(355, 3, 'jay_gabani', '$2y$10$wXEeA6MNy13EsgQlF8G3w.fhZC4NCH2kEi0amMj9CdtTvU.ZiUsMO'),
-(358, 2, 'jeel', '$2y$10$40EBg/w9DlFItbzn9X5a3uj44gZg8Xf2BTSeZD2YENvdRkeHzGxMO'),
-(359, 3, 'harsh', '$2y$10$DWwYtA3iYk.aOGW2z9oVEOp6XNJXWLWQ2fUvHKYtfAwKzWmzAVkJO');
+(335, 1, 'admin', '$2y$10$cN3ZSgu544VbF0U/Xk/96eEHlf.txlokPij7Qn5oe/dBAh2DrUwvO');
+
 
 -- --------------------------------------------------------
 
@@ -192,14 +149,6 @@ CREATE TABLE `order_master` (
 -- Dumping data for table `order_master`
 --
 
-INSERT INTO `order_master` (`order_id`, `customer_id`, `full_name`, `phone`, `address`, `pincode`, `pay_mode`, `total`, `order_date`, `due_date`) VALUES
-(8, 6, 'Raj gabani', '1234567890', '23, swetapartk , pasodra, surat', '123468', 'COD', 1851, '2023-02-26 06:01:05', '2023-03-08 18:01:00'),
-(23, 6, 'JAY GABANI', '1234567890', 'C, 393, SHIVADHARA SOCIETY, MOTAVARACHHA, SURAT, GUJARAT', '123456', 'COD', 7276, '2023-03-01 11:44:12', '2023-04-07 11:44:00'),
-(24, 6, 'jay gabani', '8798767656', 'fndm', '123456', 'COD', 13604, '2023-03-01 01:32:50', '2023-03-03 13:32:00'),
-(25, 6, 'Jay gabani', '8767675654', 'C-304, shivdhara camput, mahidharpura, ahmedabad.', '123456', 'COD', 748, '2023-03-28 12:25:02', '2023-04-07 12:25:00'),
-(26, 7, 'Harsh Maniya', '9685748574', 'D-303, blackberry, apart. adajan, surat', '852741', 'COD', 5000, '2023-03-30 08:31:33', '2023-04-01 20:31:00'),
-(27, 7, 'Harsh Maniya', '1234567890', 'd-303, blackberry ,aprt, surat', '123456', 'COD', 5000, '2023-03-30 08:33:29', '2023-04-07 20:33:00'),
-(28, 7, 'harsh maniya', '1234567890', 'D-blackberry, apart, surat', '123456', 'COD', 5000, '2023-03-30 08:36:49', '2023-04-08 20:36:00');
 
 -- --------------------------------------------------------
 
@@ -237,19 +186,9 @@ CREATE TABLE `service` (
 --
 -- Dumping data for table `service`
 --
-
 INSERT INTO `service` (`service_id`, `category_id`, `service_name`, `service_availibility`) VALUES
-(9, 87, 'Nal', 0),
-(10, 86, 'Spice', 1),
 (12, 84, 'Full Home Cleaning', 1),
 (13, 84, 'Sofa & Carpet Cleaning', 1),
-(14, 85, 'Trim & Style', 1),
-(15, 85, 'Blowdry & Styling', 1),
-(16, 85, 'Fashion Color', 1),
-(18, 85, 'Cut & Style', 1),
-(20, 86, 'Hair colour', 0),
-(21, 86, 'Relaxing Head Massage', 1),
-(22, 86, 'Beard Shaping & Styling', 0),
 (23, 87, 'Switch & Socket', 0),
 (25, 87, 'Fan repairing', 1),
 (26, 89, 'Furniture', 1),
@@ -288,13 +227,6 @@ CREATE TABLE `sp` (
 -- Dumping data for table `sp`
 --
 
-INSERT INTO `sp` (`sp_id`, `login_id`, `sp_name`, `email`, `phone`, `city_id`, `pincode`, `status`) VALUES
-(49, 344, 'Smit Dudhat', 'smit@gmail.com', '8574857474', 16, '857485', 'active'),
-(50, 345, 'Karan Parmar', 'karan@gmail.com', '8574859655', 10, '523652', 'active'),
-(52, 347, 'Nayan', 'nayan@gmail.com', '9685741425', 15, '541254', 'active'),
-(56, 351, 'jay', 'gabanishivam77@gmail.com', '9023964267', 1, '382350', 'deactive'),
-(57, 354, 'deep korat', 'deepkorat13@gmail.com', '9687480417', 2, '365006', 'active'),
-(60, 358, 'jeel', 'jeel@gmail.com', '1234567890', 1, '123456', 'deactive');
 
 -- --------------------------------------------------------
 
@@ -316,26 +248,7 @@ CREATE TABLE `sp_service` (
 -- Dumping data for table `sp_service`
 --
 
-INSERT INTO `sp_service` (`sp_id`, `service_id`, `category_id`, `service_title`, `price`, `description`, `availability`) VALUES
-(49, 21, 86, 'Body massage & Face detan', '600', 'I provide body massage and also i have co-opperative staff', 1),
-(49, 29, 88, 'Kitchen type gap filling', '1000', '• Grouting or tile gap filling of 1 kitchen\r\n• Materials like epoxy and grouting powder will be procured at additional cost.\r\n', 1),
-(50, 20, 86, 'Salon for men great', '2000', 'i provide salon for men with style ', 1),
-(50, 28, 88, 'Basin - Quick & Reliable', '3000', 'A clogged or leaky basin or sink can be a major inconvenience, but not with our quick and reliable plumbing service! Our team of experienced plumbers is equipped with the latest tools and techniques to fix any basin or sink problem efficiently and effectively. From unclogging drains to fixing leaks, we offer a range of plumbing services that are tailored to meet your specific needs. With our prompt and affordable service, you can get back to your routine in no time. Book your Basin & Sink Fix se', 1),
-(50, 30, 88, 'Balcony drain & blockage removal', '309', 'Cleaning of drain & floor trap to removal blockage', 1),
-(50, 31, 88, 'Pipline', '699', 'pipline clean & remove stuff from pipe', 1),
-(52, 12, 84, 'Kitching cleaning', '356', 'dsbkajcd', 1),
-(52, 14, 85, 'Trim & Style - Glamorous Look', '350', 'we offer a range of hair services that cater to your needs. Our salon uses only the best hair care products and tools to ensure that you leave looking and feeling your best. Book your Trim & Style service today and get ready to rock a glamorous look!', 1),
-(52, 18, 85, 'professional and stylish haircut', '250', 'Short title: \"Trim & Style - Glamorous Look\"\r\n\r\nGig description:\r\nLooking for a professional and stylish haircut? Look no further than our Trim & Style service! Our experienced hairstylists will work with you to create a customized look that complements your features and suits your style.', 1),
-(52, 27, 84, 'dfvdf', '36', 'ergvfx', 1),
-(52, 31, 88, 'pipeline solution ', '520', 'ill try if ii found any pipeline mistake then a solve it', 1),
-(52, 35, 84, 'Bedroom Cleaning', '799', 'Floor cleaning with single disc machine & vacuuming of mattress and curtains.', 1),
-(52, 37, 84, 'Occupied Kitchen cleaning', '1398', 'Tough oil & grease removal from tiles, stove, slab, sink, exhaust, window, etc.', 1),
-(56, 12, 84, 'I Provide Full cleaning', '5000', 'I provide full home cleaning with fully gerrenty', 1),
-(56, 23, 87, 'switch repairing', '150', 'dsih  jiuozkspsueofreivjkdsv ioniuhkdkfoavAEPISUVhnqwpoeqouf,mzxnpsjfew', 1),
-(57, 12, 84, 'Complete Home Cleaning - Professional & Thorough', '2000', 'Looking for a reliable and professional cleaning service that can give your entire home a thorough cleaning? Look no further than our Complete Home Cleaning service! Our experienced and skilled cleaners will deep clean every room in your home, leaving it spotless and fresh-smelling. We use only the best cleaning products and equipment to ensure that your home is not only clean but also safe and healthy. Book your cleaning today and enjoy a clean and comfortable home!', 1),
-(57, 13, 84, 'Fresh Home Cleaning', '1500', 'Say goodbye to dirt and stains on your sofas and carpets with our professional cleaning service! Our team of experienced cleaners is equipped with state-of-the-art equipment and eco-friendly cleaning solutions to give your furniture and carpets a deep and refreshing clean.', 1),
-(57, 35, 84, 'Apartment Cleaning - Hassle-free', '5000', 'Keeping a furnished apartment clean can be a daunting task, but not with our hassle-free cleaning service! We offer a thorough cleaning of every corner of your furnished apartment, ensuring that it remains clean and inviting for your guests.', 1),
-(57, 39, 84, 'Full Room cleaning', '900', 'I am offering professional room cleaning. Whether you need your bedroom, living room, kitchen, or any other room in your home cleaned, I am here to help. My services include dusting, vacuuming, mopping, wiping surfaces, and removing trash. I pay attention to detail and ensure that every nook and corner is thoroughly cleaned. With my services, you can have a sparkling clean room that will leave you feeling refreshed and satisfied. Contact me to book your cleaning appointment today!', 1);
+
 
 -- --------------------------------------------------------
 
@@ -354,10 +267,6 @@ CREATE TABLE `updatetry` (
 -- Dumping data for table `updatetry`
 --
 
-INSERT INTO `updatetry` (`id`, `fname`, `lname`, `email`) VALUES
-(1, 'Deep', 'Korat', 'deepkorat13@gmail.com'),
-(2, 'jay', 'gabani', 'jaygabani@gmail.com'),
-(3, 'sahil', 'patoliya', 'sahil@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -379,25 +288,6 @@ CREATE TABLE `user_order` (
 -- Dumping data for table `user_order`
 --
 
-INSERT INTO `user_order` (`order_id`, `service_id`, `sp_id`, `service_title`, `price`, `qty`, `status`) VALUES
-(8, 12, 52, 'Kitching cleaning', '356', 1, 'pending'),
-(8, 23, 56, 'switch repairing', '150', 1, 'pending'),
-(8, 27, 52, 'dfvdf', '36', 1, 'pending'),
-(8, 29, 49, 'Kitchen type gap filling', '1000', 1, 'pending'),
-(8, 30, 50, 'Balcony drain & blockage removal', '309', 1, 'completed'),
-(23, 12, 52, 'Kitching cleaning', '356', 5, 'pending'),
-(23, 12, 57, 'Complete Home Cleaning - Professional & Thorough', '2000', 1, 'completed'),
-(23, 14, 52, 'Trim & Style - Glamorous Look', '350', 2, 'pending'),
-(23, 37, 52, 'Occupied Kitchen cleaning', '1398', 2, 'pending'),
-(24, 12, 52, 'Kitching cleaning', '356', 3, 'pending'),
-(24, 12, 57, 'Complete Home Cleaning - Professional & Thorough', '2000', 3, 'completed'),
-(24, 13, 57, 'Fresh Home Cleaning', '1500', 1, 'rejected'),
-(24, 27, 52, 'dfvdf', '36', 1, 'pending'),
-(25, 12, 52, 'Kitching cleaning', '356', 2, 'pending'),
-(25, 27, 52, 'dfvdf', '36', 1, 'pending'),
-(26, 35, 57, 'Apartment Cleaning - Hassle-free', '5000', 1, 'pending'),
-(27, 35, 57, 'Apartment Cleaning - Hassle-free', '5000', 1, 'completed'),
-(28, 35, 57, 'Apartment Cleaning - Hassle-free', '5000', 1, 'pending');
 
 --
 -- Indexes for dumped tables

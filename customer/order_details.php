@@ -53,8 +53,8 @@ include 'includes/navbar.php';
                                     <th scope="col">Phone(SP)</th>
                                     <th scope="col">Status</th>
                                     <th scope="col">Qty.</th>
-                                    <th scope="col">Price(&#8377;)</th>
-                                    <th scope="col">Total(&#8377;)</th>
+                                    <th scope="col">Price(pkr)</th>
+                                    <th scope="col">Total(pkr)</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -124,7 +124,7 @@ include 'includes/navbar.php';
                                     <h3>TOTAL</h3>
                                 </th>
                                 <td>
-                                    <h3>&#8377; <?php echo $total ?></h3>
+                                    <h3>pkr <?php echo $total ?></h3>
                                 </td>
                             </tr>
                             <!-- delivery address -->
@@ -147,7 +147,7 @@ include 'includes/navbar.php';
                                 <th colspan="7"></th>
                                 <td>
                                     <form action="../php/invoice.php" method="post">
-                                        <button type="submit" name="invoice" class="btn btn-success">Invoice</button>
+                                        <!-- <button type="submit" name="invoice" class="btn btn-success">Invoice</button> -->
                                         <input type="hidden" name="order_id" value="<?php echo $order_id ?>">
                                         <input type="hidden" name="customer_id" value="<?php echo $customer_id ?>">
                                         <!-- <button class="btn btn-danger">Cancel Order</button> -->

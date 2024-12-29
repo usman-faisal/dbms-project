@@ -26,7 +26,12 @@ include 'includes/navbar.php';
 
 
     <!-- ===landing page image Start=== -->
-    <img src="img/purpule.png" class="img-fluid mb-5" alt="Landing Page image">
+    <div class="flex" style="display:flex;">
+    <img src="img/arham.png" class="" alt="Landing Page image">
+    <img src="img/arham1.png" class="" alt="Landing Page image">
+    <img src="img/arham2.png" class="" alt="Landing Page image">
+</div>
+
     <!-- ===landing page image End=== -->
 
 

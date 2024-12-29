@@ -151,7 +151,7 @@ include 'includes/navbar.php';
                                                         ?></h5>
                                     <h6>Service provider: <?php echo $sp_name; ?></h6>
                                     <h6 class="badge badge-success">4.4 <i class="fa-solid fa-star"></i></h6>
-                                    <h6>Starts at <small>&#8377;</small><?php echo $price ?>/-</h6>
+                                    <h6>Starts at <small>pkr</small><?php echo $price ?>/-</h6>
                                     <hr style="margin-bottom: 5px;">
                                     <p><?php echo $description ?></p>
                                     <!-- <a href="" data-toggle="modal" data-target="#exampleModal"><b>View details</b> </a> -->
@@ -255,7 +255,7 @@ include 'includes/navbar.php';
 
                     <div class="row justify-content-around " style="bottom:0; align-items:center;">
                         <!-- <a href="" class="card-link btn btn-c1-1" style="border-radius:10px;">Add to Cart</a> -->
-                        <!-- <h3 class="" id="grandtotal">&#8377;/-</h2> -->
+                        <!-- <h3 class="" id="grandtotal">pkr/-</h2> -->
                             <a href="mycart.php" class="card-link btn btn-c1-2 px-5 py-3 "><b>View Cart</b></a>
                     </div>
 

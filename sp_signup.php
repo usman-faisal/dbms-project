@@ -175,7 +175,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <div class="input-group-prepend">
                                 <div class="input-group-text bg-c1-1 text-light">@</div>
                             </div>
-                            <input type="text" class="form-control" pattern="(?=.*[a-z]).{4,}" id="username" name="username" placeholder="sahil_18" aria-describedby="inputGroupPrepend" required>
+                            <input type="text" class="form-control" pattern="(?=.*[a-z]).{4,}" id="username" name="username" placeholder="usman" aria-describedby="inputGroupPrepend" required>
 
                             <div class="invalid-feedback">
                                 Please choose a right username.
